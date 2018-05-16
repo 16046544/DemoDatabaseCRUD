@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">p13quiz</string>
+
+
+    <string-array name="show_hide">
+        <item>"Now you see me"</item>
+        <item>"Now you don't"</item>
+    </string-array>
+</resources>

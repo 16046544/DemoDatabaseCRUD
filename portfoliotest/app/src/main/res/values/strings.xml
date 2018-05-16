@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Travel Journal</string>
+    <string name="add">Add new</string>
+    <string name="browse">Browse</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_browse">BrowseActivity</string>
+    <string name="title_activity_submit">activity_submit</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- step 1 simple dialog -->
+
+    <Button
+        android:id="@+id/buttonSimpleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Dialog demo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonButtonsDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button Dialog demo" />
+
+        <TextView
+            android:id="@+id/textViewButtonsDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Your choice" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonNumdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Dialog demo" />
+
+        <TextView
+            android:id="@+id/textViewNumDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Your Input" />
+
+    </LinearLayout>
+
+</LinearLayout>
